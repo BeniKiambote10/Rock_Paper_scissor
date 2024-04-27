@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rock Paper Scissor Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header class = "header">
+        <a href="#" class="nav_item2">Beni's Rock Paper Scissor Game</a>
+        
+    <div class="container2">
+        <nav class = "navbar">
+            <li><a href="https://www.istockphoto.com/photos/rocks" class="nav_item">Rock</a></li>
+            <li><a href="https://unsplash.com/s/photos/paper"class="nav_item">Paper</a></li>
+            <li><a href="https://unsplash.com/s/photos/scissors"class="nav_item">Scissors</a></li>
+        </nav>
+    </div>
+    </header>
+
+    <div class="container">
+        <h1>Rock Paper Scissor Game</h1>
+        <div class="game">
+            <input type="text" id="userChoice" placeholder="Enter rock, paper, or scissors">
+            <button onclick="playGame()">Play</button>
+            <button onclick="resetGame()">Reset</button>
+        </div>
+        <div id="result" class="result"></div>
+        <div id="score" class="score">
+            <p>Wins: <span id="wins">0</span></p>
+            <p>Losses: <span id="losses">0</span></p>
+            <p>Ties: <span id="ties">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+ 
